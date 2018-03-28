@@ -4,4 +4,4 @@ spring:
   cloud:
     config:
       fail-fast: true
-      uri: https://ggastudios-cerebro.herokuapp.com/
+      uri: https://ggastudios-cerebro.herokuapp.com
