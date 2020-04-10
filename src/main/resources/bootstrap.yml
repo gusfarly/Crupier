@@ -1,6 +1,8 @@
 spring:
   application:
     name: crupier
+  profiles:
+    active: production
   cloud:
     config:
       fail-fast: true
