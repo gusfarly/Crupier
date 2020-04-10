@@ -7,9 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableAutoConfiguration
-@EnableEurekaServer
 @EnableAdminServer
+@EnableEurekaServer
 public class CrupierApplication {
 
 	public static void main(String[] args) {
